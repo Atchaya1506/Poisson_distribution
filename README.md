@@ -1,5 +1,5 @@
 # Fitting Poisson  distribution
-# Aim :14/12/2024 
+# Aim : 
 
 To fit poisson distribution for the arrival of objects per minute from the feeder
 
@@ -30,6 +30,9 @@ The Poisson distribution is the discrete probability distribution of the number 
 
 # Program :
 ```
+Designed By : ATCHAYA B
+Reg No: 24900268
+
 import numpy as np
 import math
 import scipy.stats
@@ -70,18 +73,30 @@ else:
 # Output : 
 
 1 2 3 4 5 6 8 9
+
 X P(X=x) Obs.Fr Exp.Fr xi
+
 --------------------------
 0.00 0.009 0.00 0.07 0.07
+
 1.00 0.041 1.00 0.33 1.37
+
 2.00 0.098 1.00 0.78 0.06
+
 3.00 0.155 1.00 1.24 0.05
+
 4.00 0.184 1.00 1.47 0.15
+
 5.00 0.174 1.00 1.39 0.11
+
 6.00 0.138 1.00 1.10 0.01
+
 7.00 0.094 0.00 0.75 0.75
+
 8.00 0.056 1.00 0.44 0.69
+
 9.00 0.029 1.00 0.23 2.49
+
 --------------------------
 Calculated value of Chi square is 5.75
 Table value of chi square at 1 level is 21.67
