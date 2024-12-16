@@ -1,4 +1,4 @@
-# Fitting Poisson  distribution
+# Exp No : 2 Fitting Poisson  distribution
 # Date : 22/10/2024
 # Aim : 
 
